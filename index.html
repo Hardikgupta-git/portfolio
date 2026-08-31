@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hardik Gupta | AI Engineer & Systems Developer</title>
+  <meta name="description" content="Portfolio of Hardik Gupta - AI Engineer, Computer-Use Agent Developer, Offline RAG Specialist & Open-Source Creator." />
+  <meta name="keywords" content="Hardik Gupta, AI Engineer, Machine Learning, Computer Use Agent, RAG, Python, Deep Learning, Portfolio" />
+  <meta name="author" content="Hardik Gupta" />
+  <meta property="og:title" content="Hardik Gupta | AI Engineer & Systems Developer" />
+  <meta property="og:description" content="AI Engineer specializing in Autonomous Agents, Offline RAG Pipelines, and Deep Learning Systems." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-name">Hardik<span class="logo-dot"> Gupta</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Education</a></li>
+          <li><a href="#achievements" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Dark/Light Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn theme-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">
+          <span>Let's Talk</span>
+          <i data-lucide="arrow-up-right" class="btn-icon-right"></i>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" aria-label="Toggle Menu">
+          <i data-lucide="menu" class="menu-open-icon"></i>
+          <i data-lucide="x" class="menu-close-icon hidden"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-nav-links">
+        <li><a href="#about" class="mobile-nav-link"><i data-lucide="user"></i> About</a></li>
+        <li><a href="#skills" class="mobile-nav-link"><i data-lucide="cpu"></i> Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link"><i data-lucide="folder-git-2"></i> Projects</a></li>
+        <li><a href="#experience" class="mobile-nav-link"><i data-lucide="graduation-cap"></i> Education</a></li>
+        <li><a href="#achievements" class="mobile-nav-link"><i data-lucide="award"></i> Certifications & Awards</a></li>
+        <li><a href="#contact" class="mobile-nav-link"><i data-lucide="mail"></i> Contact</a></li>
+      </ul>
+      <div class="mobile-menu-actions">
+        <a href="mailto:hardikgupta724877@gmail.com" class="btn btn-primary w-full">
+          <i data-lucide="mail"></i> Get In Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text-side">
+          <div class="status-pill">
+            <span class="status-indicator">
+              <span class="status-dot"></span>
+              <span class="status-ping"></span>
+            </span>
+            <span>Open to AI/ML & Software Roles</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Building autonomous agents & <span class="gradient-text">first-principles AI</span>
+          </h1>
+
+          <p class="hero-tagline">
+            I'm <strong class="name-highlight">Hardik Gupta</strong>, a Computer Science Engineer specializing in 
+            <strong>Autonomous Computer-Use Agents</strong>, <strong>Offline RAG Pipelines</strong>, and 
+            <strong>Deep Learning from Scratch</strong>.
+          </p>
+
+          <div class="hero-button-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i data-lucide="arrow-down-right"></i>
+            </a>
+            <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i data-lucide="github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/hardik-gupta-48764737a/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i data-lucide="linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+
+          <!-- Key Metrics / Stats -->
+          <div class="hero-metrics-bar">
+            <div class="metric-item">
+              <div class="metric-val">1,000+</div>
+              <div class="metric-lbl">PyPI Downloads</div>
+            </div>
+            <div class="metric-sep"></div>
+            <div class="metric-item">
+              <div class="metric-val">4+</div>
+              <div class="metric-lbl">Featured AI Projects</div>
+            </div>
+            <div class="metric-sep"></div>
+            <div class="metric-item">
+              <div class="metric-val">7.90</div>
+              <div class="metric-lbl">B.Tech CSE CGPA</div>
+            </div>
+            <div class="metric-sep"></div>
+            <div class="metric-item">
+              <div class="metric-val">100%</div>
+              <div class="metric-lbl">Local / Edge AI</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Terminal Card -->
+        <div class="hero-code-side">
+          <div class="code-terminal-card">
+            <div class="terminal-bar">
+              <div class="terminal-traffic">
+                <span class="t-circle red"></span>
+                <span class="t-circle yellow"></span>
+                <span class="t-circle green"></span>
+              </div>
+              <div class="terminal-tab-title">
+                <i data-lucide="terminal" class="terminal-icon-sm"></i>
+                <span>hardik_profile.py</span>
+              </div>
+              <button class="terminal-copy-btn" id="terminal-copy-btn" title="Copy code">
+                <i data-lucide="copy"></i>
+              </button>
+            </div>
+            <div class="terminal-content">
+              <pre><code><span class="code-cmt"># AI & Software Engineer Profile</span>
+<span class="code-kw">from</span> dataclasses <span class="code-kw">import</span> dataclass
+<span class="code-kw">from</span> typing <span class="code-kw">import</span> List
+
+<span class="code-decorator">@dataclass</span>
+<span class="code-kw">class</span> <span class="code-cls">AIEngineer</span>:
+    name: <span class="code-type">str</span> = <span class="code-str">"Hardik Gupta"</span>
+    university: <span class="code-type">str</span> = <span class="code-str">"Lovely Professional University"</span>
+    degree: <span class="code-type">str</span> = <span class="code-str">"B.Tech CSE (CGPA: 7.90)"</span>
+    specializations: <span class="code-type">List[str]</span> = <span class="code-bracket">[</span>
+        <span class="code-str">"Vision-Language Computer-Use Agents"</span>,
+        <span class="code-str">"Local Offline RAG & ChromaDB"</span>,
+        <span class="code-str">"Neural Networks from Scratch (NumPy)"</span>,
+        <span class="code-str">"Open-Source Data Engineering"</span>
+    <span class="code-bracket">]</span>
+    
+    <span class="code-kw">def</span> <span class="code-func">status</span>(<span class="code-param">self</span>) -&gt; <span class="code-type">str</span>:
+        <span class="code-kw">return</span> <span class="code-str">"Ready to engineer production AI systems."</span>
+
+hardik = <span class="code-cls">AIEngineer</span>()
+<span class="code-func">print</span>(hardik.status())
+<span class="code-output">&gt;&gt;&gt; "Ready to engineer production AI systems."</span></code></pre>
+            </div>
+            <div class="terminal-bottom-bar">
+              <span class="term-status"><i data-lucide="check-circle-2"></i> Clean Architecture &bull; Tested</span>
+              <span class="term-loc"><i data-lucide="map-pin"></i> Phagwara, Punjab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILE PHOTO SECTION: add your image at assets/hardik-profile.jpg -->
+    <section class="profile-showcase-section" id="profile">
+      <div class="container profile-showcase-grid">
+        <div class="profile-photo-wrap">
+          <div class="profile-photo-frame">
+            <img
+  id="profile-photo"
+  src="assets/Hardik.jpeg"
+  alt="Portrait of Hardik Gupta"
+  onload="document.getElementById('profile-photo-placeholder').style.display='none';"
+/>
+<div class="profile-photo-placeholder" id="profile-photo-placeholder" aria-label="Profile photo placeholder">
+  <i data-lucide="image-plus"></i>
+</div>
+          </div>
+        </div>
+        <div class="profile-intro-copy">
+          <span class="section-badge"><i data-lucide="sparkles"></i> A little more personal</span>
+          <h2>Building useful AI with <span class="gradient-text">clarity and care.</span></h2>
+          <p>
+            I’m Hardik Gupta, a computer science engineer focused on practical AI systems that are thoughtful, reliable, and easy to use.
+          </p>
+          <p>
+            From autonomous agents to private, offline RAG workflows, I enjoy turning complex ideas into products people can genuinely depend on.
+          </p>
+          <a href="#contact" class="text-link">
+            Let’s work together <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i data-lucide="user"></i> Who I Am</span>
+          <h2 class="section-heading">About <span class="gradient-text">Hardik Gupta</span></h2>
+          <p class="section-subtext">Combining deep theoretical foundations with pragmatic software craftsmanship.</p>
+        </div>
+
+        <div class="about-layout-grid">
+          <div class="about-main-card">
+            <div class="about-hero-header">
+              <div class="avatar-box">
+                <span class="avatar-text">HG</span>
+              </div>
+              <div class="avatar-info">
+                <h3 class="person-name">Hardik Gupta</h3>
+                <p class="person-title">Computer Science & Engineering Undergraduate</p>
+                <div class="quick-contact-pills">
+                  <span class="contact-pill"><i data-lucide="mail"></i> hardikgupta724877@gmail.com</span>
+                  <span class="contact-pill"><i data-lucide="phone"></i> +91 7248773009</span>
+                  <span class="contact-pill"><i data-lucide="map-pin"></i> Phagwara, Punjab</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-prose">
+              <p>
+                I am currently pursuing my <strong>Bachelor of Technology in Computer Science and Engineering</strong> at 
+                <strong>Lovely Professional University</strong> (CGPA: <strong>7.90</strong>). My passion lies in understanding how 
+                computational and machine learning systems operate from fundamental mathematical principles.
+              </p>
+              <p>
+                Rather than merely consuming high-level wrappers, I enjoy implementing complex systems from the ground up:
+              </p>
+              <ul class="about-key-points">
+                <li>
+                  <i data-lucide="bot" class="point-icon"></i>
+                  <div><strong>Autonomous Computer-Use Agents:</strong> Interpreting screen pixels with Vision-Language Models and translating model decisions into real-time OS actions.</div>
+                </li>
+                <li>
+                  <i data-lucide="brain-circuit" class="point-icon"></i>
+                  <div><strong>First-Principles Deep Learning:</strong> Implementing forward propagation, analytical backpropagation, and gradient descent entirely in NumPy.</div>
+                </li>
+                <li>
+                  <i data-lucide="shield-check" class="point-icon"></i>
+                  <div><strong>Offline & Private AI:</strong> Architecting local RAG workflows with ChromaDB and Ollama, eliminating cloud dependencies.</div>
+                </li>
+                <li>
+                  <i data-lucide="package-check" class="point-icon"></i>
+                  <div><strong>Open Source Impact:</strong> Publishing community frameworks on PyPI with automated test suites and over 1,000+ downloads.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Sidebar Cards -->
+          <div class="about-side-column">
+            <div class="side-card">
+              <div class="side-card-title">
+                <i data-lucide="compass"></i>
+                <h4>Engineering Philosophy</h4>
+              </div>
+              <ul class="philosophy-list">
+                <li><strong>First-Principles First:</strong> Understand the math before importing libraries.</li>
+                <li><strong>Real Products, Not Toy Demos:</strong> Package, test, and ship complete distributables.</li>
+                <li><strong>Privacy & Efficiency:</strong> Optimize local inference and offline pipelines.</li>
+                <li><strong>High Reliability:</strong> Comprehensive PyTest coverage and clean OOPS design.</li>
+              </ul>
+            </div>
+
+            <div class="side-card">
+              <div class="side-card-title">
+                <i data-lucide="heart-handshake"></i>
+                <h4>Core Strengths</h4>
+              </div>
+              <div class="soft-tags-grid">
+                <span class="soft-tag-badge"><i data-lucide="award"></i> Leadership</span>
+                <span class="soft-tag-badge"><i data-lucide="users"></i> Team Player</span>
+                <span class="soft-tag-badge"><i data-lucide="sparkles"></i> High Adaptability</span>
+                <span class="soft-tag-badge"><i data-lucide="bug"></i> Root-Cause Debugging</span>
+                <span class="soft-tag-badge"><i data-lucide="layers"></i> Systems Architecture</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i data-lucide="cpu"></i> Technical Matrix</span>
+          <h2 class="section-heading">Skills & <span class="gradient-text">Technologies</span></h2>
+          <p class="section-subtext">A breakdown of my programming stack, AI/ML tools, databases, and computer science foundations.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="skills-filter-bar">
+          <button class="filter-tab active" data-filter="all">All Stack</button>
+          <button class="filter-tab" data-filter="languages">Languages</button>
+          <button class="filter-tab" data-filter="ai-ml">AI & Machine Learning</button>
+          <button class="filter-tab" data-filter="databases">Databases</button>
+          <button class="filter-tab" data-filter="tools">Tools & DevOps</button>
+          <button class="filter-tab" data-filter="core-cs">Core CS</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-catalog-grid">
+          <!-- Card: Languages -->
+          <div class="skill-category-box" data-cat="languages">
+            <div class="category-top">
+              <div class="cat-icon-container lang-theme">
+                <i data-lucide="code"></i>
+              </div>
+              <div class="cat-meta">
+                <h3 class="cat-name">Programming Languages</h3>
+                <span class="cat-count">4 Languages</span>
+              </div>
+            </div>
+            <div class="skills-tag-wrap">
+              <div class="skill-item-pill">
+                <span class="skill-indicator python"></span>
+                <span class="skill-text">Python</span>
+                <span class="skill-exp">Advanced</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator cpp"></span>
+                <span class="skill-text">C / C++</span>
+                <span class="skill-exp">Proficient</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator sql"></span>
+                <span class="skill-text">SQL</span>
+                <span class="skill-exp">Intermediate</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator js"></span>
+                <span class="skill-text">JavaScript</span>
+                <span class="skill-exp">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card: AI & ML -->
+          <div class="skill-category-box" data-cat="ai-ml">
+            <div class="category-top">
+              <div class="cat-icon-container ai-theme">
+                <i data-lucide="brain"></i>
+              </div>
+              <div class="cat-meta">
+                <h3 class="cat-name">AI & Machine Learning</h3>
+                <span class="cat-count">6 Frameworks & Domains</span>
+              </div>
+            </div>
+            <div class="skills-tag-wrap">
+              <div class="skill-item-pill">
+                <span class="skill-indicator ai"></span>
+                <span class="skill-text">Vision-Language Models (VLM)</span>
+                <span class="skill-exp">Computer Use</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator ai"></span>
+                <span class="skill-text">Local LLMs & Ollama</span>
+                <span class="skill-exp">Offline Inference</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator ai"></span>
+                <span class="skill-text">ChromaDB Vector Store</span>
+                <span class="skill-exp">RAG Pipelines</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator ai"></span>
+                <span class="skill-text">PyTorch</span>
+                <span class="skill-exp">OpenCV Certified</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator ai"></span>
+                <span class="skill-text">NumPy & Pandas</span>
+                <span class="skill-exp">Tensors & Math</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator ai"></span>
+                <span class="skill-text">Backpropagation & Math</span>
+                <span class="skill-exp">From Scratch</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card: Databases -->
+          <div class="skill-category-box" data-cat="databases">
+            <div class="category-top">
+              <div class="cat-icon-container db-theme">
+                <i data-lucide="database"></i>
+              </div>
+              <div class="cat-meta">
+                <h3 class="cat-name">Databases & Storage</h3>
+                <span class="cat-count">3 Technologies</span>
+              </div>
+            </div>
+            <div class="skills-tag-wrap">
+              <div class="skill-item-pill">
+                <span class="skill-indicator db"></span>
+                <span class="skill-text">MySQL</span>
+                <span class="skill-exp">Relational DB</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator db"></span>
+                <span class="skill-text">PL/SQL</span>
+                <span class="skill-exp">Procedures & Triggers</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator db"></span>
+                <span class="skill-text">MongoDB</span>
+                <span class="skill-exp">NoSQL Document Store</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card: Tools & Platforms -->
+          <div class="skill-category-box" data-cat="tools">
+            <div class="category-top">
+              <div class="cat-icon-container tool-theme">
+                <i data-lucide="wrench"></i>
+              </div>
+              <div class="cat-meta">
+                <h3 class="cat-name">Tools & Platforms</h3>
+                <span class="cat-count">7 Tools</span>
+              </div>
+            </div>
+            <div class="skills-tag-wrap">
+              <div class="skill-item-pill">
+                <span class="skill-indicator tool"></span>
+                <span class="skill-text">Git & GitHub</span>
+                <span class="skill-exp">Version Control</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator tool"></span>
+                <span class="skill-text">VS Code & PyCharm</span>
+                <span class="skill-exp">IDEs</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator tool"></span>
+                <span class="skill-text">Streamlit</span>
+                <span class="skill-exp">Web Apps</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator tool"></span>
+                <span class="skill-text">PyInstaller & PyWebView</span>
+                <span class="skill-exp">Desktop Packaging</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator tool"></span>
+                <span class="skill-text">PyTest & Setuptools</span>
+                <span class="skill-exp">Testing & PyPI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card: Core CS -->
+          <div class="skill-category-box" data-cat="core-cs">
+            <div class="category-top">
+              <div class="cat-icon-container core-theme">
+                <i data-lucide="binary"></i>
+              </div>
+              <div class="cat-meta">
+                <h3 class="cat-name">Core Computer Science</h3>
+                <span class="cat-count">5 Core Subjects</span>
+              </div>
+            </div>
+            <div class="skills-tag-wrap">
+              <div class="skill-item-pill">
+                <span class="skill-indicator core"></span>
+                <span class="skill-text">Data Structures & Algorithms</span>
+                <span class="skill-exp">30+ Solved</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator core"></span>
+                <span class="skill-text">Operating Systems</span>
+                <span class="skill-exp">Processes & Threads</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator core"></span>
+                <span class="skill-text">Object-Oriented Programming (OOPS)</span>
+                <span class="skill-exp">Solid Principles</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator core"></span>
+                <span class="skill-text">DBMS</span>
+                <span class="skill-exp">Normalization & ACID</span>
+              </div>
+              <div class="skill-item-pill">
+                <span class="skill-indicator core"></span>
+                <span class="skill-text">Computer Networks</span>
+                <span class="skill-exp">TCP/IP & Protocols</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i data-lucide="folder-git-2"></i> Showcase</span>
+          <h2 class="section-heading">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtext">Engineered solutions spanning computer-use agents, offline RAG systems, PyPI packages, and scratch deep learning.</p>
+        </div>
+
+        <div class="projects-showcase-grid">
+          <!-- 1. OfflineComputerAiAgent -->
+          <div class="project-showcase-card highlight-card">
+            <div class="card-glow-edge"></div>
+            <div class="project-card-header">
+              <div class="card-badges">
+                <span class="badge badge-accent"><i data-lucide="sparkles"></i> AI Agent</span>
+                <span class="badge badge-date">Aug 2026</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="icon-link-btn" title="View Source on GitHub">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-heading-block">
+                <div class="project-avatar-icon vlm-color">
+                  <i data-lucide="monitor-dot"></i>
+                </div>
+                <div>
+                  <h3 class="project-name">OfflineComputerAiAgent</h3>
+                  <p class="project-category">Autonomous GUI Execution & Vision-Language Computer-Use Agent</p>
+                </div>
+              </div>
+
+              <p class="project-desc">
+                Built an AI-powered computer-use agent capable of interpreting live screen content and autonomously executing GUI actions using vision-language models.
+              </p>
+
+              <div class="project-features-list">
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Automated Interaction Workflows:</strong> Orchestrates full task execution including opening Chrome, searching YouTube, clicking UI components, and navigating apps based on visual context.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>JSON-Based Tool Calling:</strong> Developed robust action parsing and execution logic enabling the model to translate high-level reasoning into real-time mouse and keyboard operations.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Local Execution:</strong> Operates offline with local vision models via Ollama for zero-latency, private desktop interaction.</span>
+                </div>
+              </div>
+
+              <div class="tech-chips-wrap">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Ollama</span>
+                <span class="tech-chip">Vision LLM</span>
+                <span class="tech-chip">PyAutoGUI</span>
+                <span class="tech-chip">JSON Tool Calling</span>
+                <span class="tech-chip">OOPS</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="footer-highlight-tag"><i data-lucide="zap"></i> Autonomous Desktop Control</span>
+              <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="view-project-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. LazyMIND OfflineRAG -->
+          <div class="project-showcase-card highlight-card">
+            <div class="card-glow-edge"></div>
+            <div class="project-card-header">
+              <div class="card-badges">
+                <span class="badge badge-rag"><i data-lucide="brain"></i> Offline RAG</span>
+                <span class="badge badge-date">Aug 2026</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="icon-link-btn" title="View Source on GitHub">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-heading-block">
+                <div class="project-avatar-icon rag-color">
+                  <i data-lucide="book-open-check"></i>
+                </div>
+                <div>
+                  <h3 class="project-name">LazyMIND: Offline Study Assistant</h3>
+                  <p class="project-category">Privacy-First RAG Pipeline & Standalone Desktop App</p>
+                </div>
+              </div>
+
+              <p class="project-desc">
+                Built a fully offline RAG pipeline (PDF &rarr; chunks &rarr; embeddings &rarr; ChromaDB &rarr; local LLM via Ollama) answering questions grounded in user-uploaded study material with no cloud dependency.
+              </p>
+
+              <div class="project-features-list">
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Full Offline Pipeline:</strong> Implemented end-to-end vector embeddings and local LLM query answering directly on user hardware.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>"Lost in the Middle" Bug Fix:</strong> Diagnosed and fixed the classic retrieval degradation bug by tuning context sizes and reranking chunks.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Shipped Standalone .exe:</strong> Packaged the complete Streamlit UI + ChromaDB + PyWebView into a portable Windows executable via PyInstaller.</span>
+                </div>
+              </div>
+
+              <div class="tech-chips-wrap">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">LLMs</span>
+                <span class="tech-chip">ChromaDB</span>
+                <span class="tech-chip">Streamlit</span>
+                <span class="tech-chip">PyWebView</span>
+                <span class="tech-chip">PyInstaller</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="footer-highlight-tag"><i data-lucide="package"></i> Packaged Windows .EXE</span>
+              <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="view-project-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. DataManager -->
+          <div class="project-showcase-card">
+            <div class="card-glow-edge"></div>
+            <div class="project-card-header">
+              <div class="card-badges">
+                <span class="badge badge-pypi"><i data-lucide="boxes"></i> PyPI Package</span>
+                <span class="badge badge-date">May 2026</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="icon-link-btn" title="View Source on GitHub">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-heading-block">
+                <div class="project-avatar-icon data-color">
+                  <i data-lucide="layers"></i>
+                </div>
+                <div>
+                  <h3 class="project-name">DataManager</h3>
+                  <p class="project-category">Open-Source Python Framework for Data Engineering & Analytics</p>
+                </div>
+              </div>
+
+              <p class="project-desc">
+                Developed and published an open-source Python framework for data engineering and analytics workflows, surpassing 1,000+ downloads on PyPI.
+              </p>
+
+              <div class="project-features-list">
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Unified Storage API:</strong> Implemented CSV, JSON, and in-memory storage backends through a unified API, drastically reducing boilerplate.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>1,000+ PyPI Downloads:</strong> Published and distributed to the community following strict packaging standards.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Automated Testing:</strong> Integrated comprehensive PyTest unit tests and setuptools packaging for enterprise-grade reliability.</span>
+                </div>
+              </div>
+
+              <div class="tech-chips-wrap">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Pandas</span>
+                <span class="tech-chip">PyTest</span>
+                <span class="tech-chip">Setuptools</span>
+                <span class="tech-chip">PyPI</span>
+                <span class="tech-chip">OOPS</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="footer-highlight-tag"><i data-lucide="trending-up"></i> 1,000+ Community Downloads</span>
+              <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="view-project-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. MiniNeuralNetworkFramework -->
+          <div class="project-showcase-card">
+            <div class="card-glow-edge"></div>
+            <div class="project-card-header">
+              <div class="card-badges">
+                <span class="badge badge-nn"><i data-lucide="cpu"></i> Deep Learning</span>
+                <span class="badge badge-date">April 2026</span>
+              </div>
+              <div class="card-actions">
+                <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="icon-link-btn" title="View Source on GitHub">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <div class="project-heading-block">
+                <div class="project-avatar-icon nn-color">
+                  <i data-lucide="network"></i>
+                </div>
+                <div>
+                  <h3 class="project-name">MiniNeuralNetworkFramework</h3>
+                  <p class="project-category">Neural Network Framework from Scratch (Zero PyTorch/TensorFlow)</p>
+                </div>
+              </div>
+
+              <p class="project-desc">
+                Built a complete neural network framework from scratch without TensorFlow or PyTorch, validated on synthetic datasets to confirm correctness of core algorithms.
+              </p>
+
+              <div class="project-features-list">
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Mathematical Backprop:</strong> Implemented forward propagation, analytical backpropagation, and gradient descent entirely in NumPy.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Modular Layer Abstractions:</strong> Designed clean abstractions for Dense layers, Activation functions, and Loss calculations.</span>
+                </div>
+                <div class="feature-row">
+                  <i data-lucide="check-circle" class="feat-check"></i>
+                  <span><strong>Clean Training Loop API:</strong> Builds networks layer-by-layer, providing a clean training API similar to enterprise frameworks.</span>
+                </div>
+              </div>
+
+              <div class="tech-chips-wrap">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">NumPy</span>
+                <span class="tech-chip">ML Maths</span>
+                <span class="tech-chip">Backpropagation</span>
+                <span class="tech-chip">Gradient Descent</span>
+                <span class="tech-chip">Deep Learning</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="footer-highlight-tag"><i data-lucide="code-2"></i> Zero Framework Dependencies</span>
+              <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="view-project-link">
+                <span>View on GitHub</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i data-lucide="graduation-cap"></i> Academic Path</span>
+          <h2 class="section-heading">Education & <span class="gradient-text">Milestones</span></h2>
+          <p class="section-subtext">Formal education and foundational academic background.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline 1: LPU -->
+          <div class="timeline-entry">
+            <div class="timeline-icon-marker lpu-marker">
+              <i data-lucide="award"></i>
+            </div>
+            <div class="timeline-card-content">
+              <div class="timeline-top">
+                <div>
+                  <h3 class="timeline-degree">Bachelor of Technology in Computer Science and Engineering</h3>
+                  <h4 class="timeline-place">Lovely Professional University</h4>
+                </div>
+                <div class="timeline-side-info">
+                  <span class="timeline-pill"><i data-lucide="calendar"></i> Since Aug 2025</span>
+                  <span class="timeline-pill loc"><i data-lucide="map-pin"></i> Phagwara, Punjab</span>
+                </div>
+              </div>
+              <div class="timeline-score-pill">
+                <span class="score-title">Current CGPA:</span>
+                <span class="score-val">7.90 / 10.0</span>
+              </div>
+              <p class="timeline-details">
+                Rigorous computer science curriculum including Data Structures & Algorithms, Operating Systems, 
+                Object-Oriented Programming, Database Management Systems, and Computer Networks. Actively building 
+                autonomous AI systems, local RAG architectures, and open-source tooling.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline 2: School 12th -->
+          <div class="timeline-entry">
+            <div class="timeline-icon-marker">
+              <i data-lucide="book-open"></i>
+            </div>
+            <div class="timeline-card-content">
+              <div class="timeline-top">
+                <div>
+                  <h3 class="timeline-degree">Senior Secondary Education (Class XII)</h3>
+                  <h4 class="timeline-place">Dhumari Public School</h4>
+                </div>
+                <div class="timeline-side-info">
+                  <span class="timeline-pill"><i data-lucide="calendar"></i> Apr 2024 &ndash; Mar 2025</span>
+                  <span class="timeline-pill loc"><i data-lucide="map-pin"></i> Ganjdundwara, UP</span>
+                </div>
+              </div>
+              <div class="timeline-score-pill">
+                <span class="score-title">Percentage:</span>
+                <span class="score-val">70.2%</span>
+              </div>
+              <p class="timeline-details">
+                Advanced secondary study with emphasis on Mathematics, Physics, and foundational sciences.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline 3: School 10th -->
+          <div class="timeline-entry">
+            <div class="timeline-icon-marker">
+              <i data-lucide="check-circle-2"></i>
+            </div>
+            <div class="timeline-card-content">
+              <div class="timeline-top">
+                <div>
+                  <h3 class="timeline-degree">Secondary Education (Class X)</h3>
+                  <h4 class="timeline-place">Dhumari Public School</h4>
+                </div>
+                <div class="timeline-side-info">
+                  <span class="timeline-pill"><i data-lucide="calendar"></i> Apr 2022 &ndash; Mar 2023</span>
+                  <span class="timeline-pill loc"><i data-lucide="map-pin"></i> Dhumari, Etah, UP</span>
+                </div>
+              </div>
+              <div class="timeline-score-pill">
+                <span class="score-title">Percentage:</span>
+                <span class="score-val">65.0%</span>
+              </div>
+              <p class="timeline-details">
+                Secondary school curriculum building analytical foundations in STEM disciplines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES & ACHIEVEMENTS -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i data-lucide="trophy"></i> Recognition</span>
+          <h2 class="section-heading">Certifications & <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtext">Verified credentials and milestones in competitive programming and machine learning.</p>
+        </div>
+
+        <div class="credentials-dual-grid">
+          <!-- Certifications -->
+          <div class="dual-column">
+            <div class="column-header">
+              <i data-lucide="file-badge-2" class="col-icon"></i>
+              <h3 class="col-title">Professional Certifications</h3>
+            </div>
+
+            <div class="cert-stack">
+              <div class="cert-item-card">
+                <div class="cert-icon-wrap pytorch-glow">
+                  <i data-lucide="flame"></i>
+                </div>
+                <div class="cert-text">
+                  <h4 class="cert-name">PyTorch Bootcamp</h4>
+                  <p class="cert-authority">OpenCV University</p>
+                  <span class="cert-badge-tag">Deep Learning & Computer Vision</span>
+                </div>
+              </div>
+
+              <div class="cert-item-card">
+                <div class="cert-icon-wrap data-glow">
+                  <i data-lucide="workflow"></i>
+                </div>
+                <div class="cert-text">
+                  <h4 class="cert-name">Data Engineering Foundations</h4>
+                  <p class="cert-authority">Data Pipelines & Storage Architecture</p>
+                  <span class="cert-badge-tag">ETL & Distributed Systems</span>
+                </div>
+              </div>
+
+              <div class="cert-item-card">
+                <div class="cert-icon-wrap sql-glow">
+                  <i data-lucide="database"></i>
+                </div>
+                <div class="cert-text">
+                  <h4 class="cert-name">SQL (Intermediate)</h4>
+                  <p class="cert-authority">Relational Database & Query Optimization</p>
+                  <span class="cert-badge-tag">Joins, Indexes & Aggregations</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievements -->
+          <div class="dual-column">
+            <div class="column-header">
+              <i data-lucide="medal" class="col-icon"></i>
+              <h3 class="col-title">Key Achievements</h3>
+            </div>
+
+            <div class="cert-stack">
+              <div class="achievement-item-card">
+                <div class="achieve-icon dsa-glow">
+                  <i data-lucide="code-2"></i>
+                </div>
+                <div class="achieve-text">
+                  <div class="achieve-pill">Problem Solving</div>
+                  <h4 class="achieve-name">30+ DSA Questions Solved</h4>
+                  <p class="achieve-summary">
+                    Consistently practicing algorithmic problem solving on platforms like LeetCode and GeeksforGeeks.
+                  </p>
+                </div>
+              </div>
+
+              <div class="achievement-item-card">
+                <div class="achieve-icon kaggle-glow">
+                  <i data-lucide="trending-up"></i>
+                </div>
+                <div class="achieve-text">
+                  <div class="achieve-pill">Competitive ML</div>
+                  <h4 class="achieve-name">Kaggle House Price Competition</h4>
+                  <p class="achieve-score">Top Score (RMSLE): <strong>0.14514</strong></p>
+                  <p class="achieve-summary">
+                    Engineered exploratory feature pipelines, handled categorical encodings, and tuned tree-based models.
+                  </p>
+                </div>
+              </div>
+
+              <div class="achievement-item-card">
+                <div class="achieve-icon pypi-glow">
+                  <i data-lucide="download"></i>
+                </div>
+                <div class="achieve-text">
+                  <div class="achieve-pill">Open Source Impact</div>
+                  <h4 class="achieve-name">1,000+ PyPI Downloads</h4>
+                  <p class="achieve-summary">
+                    Published and distributed the <code>DataManager</code> framework on Python Package Index.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i data-lucide="send"></i> Connect</span>
+          <h2 class="section-heading">Get in <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtext">Looking for an AI engineer or interested in collaborating? Let's talk!</p>
+        </div>
+
+        <div class="contact-box-grid">
+          <!-- Left: Direct Channels -->
+          <div class="contact-direct-stack">
+            <!-- Email -->
+            <div class="contact-card-item">
+              <div class="channel-icon-box">
+                <i data-lucide="mail"></i>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">Email Address</span>
+                <a href="mailto:hardikgupta724877@gmail.com" class="channel-link" id="email-text">hardikgupta724877@gmail.com</a>
+              </div>
+              <button class="copy-action-btn" id="copy-email-btn" title="Copy Email">
+                <i data-lucide="copy" class="btn-copy-icon"></i>
+                <span class="copied-tooltip">Copy</span>
+              </button>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-card-item">
+              <div class="channel-icon-box">
+                <i data-lucide="phone"></i>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">Phone / WhatsApp</span>
+                <a href="tel:+917248773009" class="channel-link">+91 7248773009</a>
+              </div>
+              <a href="tel:+917248773009" class="channel-action-btn" title="Call Now">
+                <i data-lucide="phone-call"></i>
+              </a>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-card-item">
+              <div class="channel-icon-box">
+                <i data-lucide="linkedin"></i>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">LinkedIn Profile</span>
+                <a href="https://www.linkedin.com/in/hardik-gupta-48764737a/" target="_blank" rel="noopener noreferrer" class="channel-link">hardik-gupta-48764737a</a>
+              </div>
+              <a href="https://www.linkedin.com/in/hardik-gupta-48764737a/" target="_blank" rel="noopener noreferrer" class="channel-action-btn" title="Visit Profile">
+                <i data-lucide="external-link"></i>
+              </a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-card-item">
+              <div class="channel-icon-box">
+                <i data-lucide="github"></i>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">GitHub Profile</span>
+                <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="channel-link">Hardikgupta-git</a>
+              </div>
+              <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="channel-action-btn" title="Visit GitHub">
+                <i data-lucide="external-link"></i>
+              </a>
+            </div>
+
+            <!-- Availability Card -->
+            <div class="availability-card">
+              <div class="avail-badge">
+                <span class="live-pulse"></span>
+                <span>Active Status</span>
+              </div>
+              <h4 class="avail-title">Available for AI/ML & Engineering Roles</h4>
+              <p class="avail-desc">Open to full-time opportunities, internships, and collaborative research projects.</p>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Quick Message Form -->
+          <div class="contact-form-wrapper">
+            <div class="form-inner-box">
+              <h3 class="form-title-text">Send a Quick Message</h3>
+              <p class="form-desc-text">Fill in your message and it will launch your default email app with pre-populated fields.</p>
+
+              <form id="contact-form" class="form-element">
+                <div class="form-field-group">
+                  <label for="sender-name">Your Name</label>
+                  <div class="field-input-box">
+                    <i data-lucide="user" class="field-icon"></i>
+                    <input type="text" id="sender-name" placeholder="John Doe" required />
+                  </div>
+                </div>
+
+                <div class="form-field-group">
+                  <label for="sender-email">Your Email</label>
+                  <div class="field-input-box">
+                    <i data-lucide="at-sign" class="field-icon"></i>
+                    <input type="email" id="sender-email" placeholder="john@example.com" required />
+                  </div>
+                </div>
+
+                <div class="form-field-group">
+                  <label for="message-subject">Subject</label>
+                  <div class="field-input-box">
+                    <i data-lucide="tag" class="field-icon"></i>
+                    <input type="text" id="message-subject" placeholder="Collaboration / Job Opportunity" required />
+                  </div>
+                </div>
+
+                <div class="form-field-group">
+                  <label for="message-body">Message</label>
+                  <div class="field-input-box text-area-box">
+                    <i data-lucide="message-square" class="field-icon area-icon"></i>
+                    <textarea id="message-body" rows="4" placeholder="Hi Hardik, I came across your AI agent and RAG projects and would love to connect..." required></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-full form-submit-btn">
+                  <span>Send Message via Email</span>
+                  <i data-lucide="send"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div class="footer-brand-side">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-name">Hardik<span class="logo-dot">.dev</span></span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">AI Engineer & Systems Developer &bull; First-Principles Machine Learning.</p>
+      </div>
+
+      <div class="footer-social-links">
+        <a href="https://github.com/Hardikgupta-git" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="GitHub">
+          <i data-lucide="github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/hardik-gupta-48764737a/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn">
+          <i data-lucide="linkedin"></i>
+        </a>
+        <a href="mailto:hardikgupta724877@gmail.com" class="footer-social-btn" aria-label="Email">
+          <i data-lucide="mail"></i>
+        </a>
+        <a href="tel:+917248773009" class="footer-social-btn" aria-label="Phone">
+          <i data-lucide="phone"></i>
+        </a>
+      </div>
+
+      <div class="footer-copyright-bar">
+        <p>&copy; 2026 Hardik Gupta. All rights reserved.</p>
+        <a href="#hero" class="back-to-top-btn" id="back-to-top">
+          <span>Back to top</span>
+          <i data-lucide="arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Element -->
+  <div id="toast-notify" class="toast-popup hidden">
+    <i data-lucide="check" class="toast-ico"></i>
+    <span id="toast-text">Copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
